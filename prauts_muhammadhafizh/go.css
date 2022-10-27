@@ -1,0 +1,447 @@
+.loginbox{ 
+         width:800px;
+		 height:500px;
+		 background:#000;
+		 color:#fff;
+		 top:80%;
+		 right:50%;
+		 left:50%;
+		 position:absolute;
+		 transform: translate(-50%,-50%);
+		 box-sizing:border-box;
+		 padding:70px 30px; 
+		 background:rgba(0,0,0,0.4);
+		 
+}
+.loginboxs{ 
+         width:1200px;
+		 height:700px;
+		 background:#000;
+		 color:#fff;
+		 top:70%;
+		 right:50%;
+		 left:50%;
+		 position:absolute;
+
+		 transform: translate(-50%,-50%);
+		 box-sizing:border-box;
+		 padding:30px 10px; 
+		 background:rgba(0,0,0,0.4);
+		 
+		 
+}
+.loginbox3{ 
+         width:500px;
+		 height:830px;
+		 background:#000;
+		 color:#fff;
+		 top:95%;
+		 right:50%;
+		 left:50%;
+		 position:absolute;
+		 transform: translate(-50%,-50%);
+		 box-sizing:border-box;
+		 padding:50px 50px; 
+		 background:rgba(0,0,0,0.4);
+		 
+}
+
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size:45px;
+	color: #900;
+	font-family:Castellar;
+}
+
+h2{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size:22px;
+	font-family: algerian;
+	
+}
+#p1{
+	text-align: center;
+}
+.loginbox p{
+	margin:0%;
+	padding:0%;
+	font-weight:bold;
+	text-align:left;
+	font-family:sans-serif;
+}
+.loginbox3 p{
+	margin:0%;
+	padding:0%;
+	font-weight:bold;
+	text-align:left;
+	font-family:Lucida Bright;
+}
+.loginbox h3{
+	margin:0%;
+	padding:0%;
+	font-weight:bold;
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size:28px;
+	color:#900;
+	font-family:Lucida Calligraphy;
+}
+
+.loginbox h2{
+	margin:0%;
+	padding:0%;
+	font-weight:bold;
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size:30px;
+	color:#900;
+	font-family:Lucida Calligraphy;
+	
+}
+.loginbox3 h2{
+	margin:0%;
+	padding:0%;
+	font-weight:bold;
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size:40px;
+	color:#900;
+	font-family:Bernard MT Condensed;
+	
+}
+
+
+body
+{
+	margin: 30px;
+	padding: 0;
+	
+}
+
+section.sec1
+{
+	width:100%;
+	height:160vh;
+	box-sizing:border-box;
+	background:url(pic2.jpg);
+	background-size:1400;
+}
+nav
+{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:70px;
+	background: rgba(0,0,0,1);
+	padding: 0 100px;
+	box-sizing:border-box;
+	z-index: 9999;
+}
+nav .brand
+{
+	float:left;
+	height: 100%;
+	line-height: 70px;
+
+}
+nav .brand h1
+{
+	margin: 0;
+	padding: 0;
+	color:#900 ;
+	font-family:Castellar;
+	
+	
+}
+nav ul
+{
+	float:right;
+	display:flex;
+	margin: 0;
+	padding:0;
+}
+nav ul li	
+{
+	list-style: none;
+}
+nav ul li a
+{
+	position: relative;
+	display: block;
+	height:70px;
+	line-height: 70px;
+	padding: 0 20px;
+	box-sizing:border-box;
+	color: #fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	transform:.5s;
+}
+nav ul li a:hover
+{
+	color:#930;
+}
+
+nav ul li a:before
+{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background:#930;
+	transform-orgin:right;
+	transform:scaleX(0);
+	transiton: transform .5s;
+	
+}
+nav ul li a:hover:before
+{
+	transform-origin:left;
+	transform:scaleX(1);
+
+}
+
+
+.loginbox input{ 
+width:35%;
+margin-bottom: 20px;
+position:center;
+
+}
+.loginbox3 input{ 
+width:100%;
+margin-bottom: 30px;
+position:center;
+align-content: center;
+
+}
+
+
+.loginbox3 select
+{
+		border:none;
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline:none;
+		height:50px;
+		color:#900;
+		font-size: 16px;
+		background-size: 100px;
+		margin-bottom: 40px;
+
+		
+
+}
+
+.loginbox input[type="text"]
+{
+		border:none;
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline:none;
+		height:40px;
+		color:#fff;
+		font-size: 30px;
+}
+.loginbox3 input[type="text"]
+{
+		border:none;
+		border-bottom: 1px solid #fff;
+		background:transparent;
+		outline:none;
+		height:40px;
+		color:#fff;
+		font-size: 30px;
+}
+.loginbox3 input[type="date"]
+{
+	 width: 200px;
+		border:none;
+		border-bottom: 1px solid #fff;
+		
+		outline:none;
+		height:40px;
+		background:transparent;
+		color:#900;
+		font-size: 20px;
+}
+.loginbox textarea
+{       width:50%;
+        margin-bottom: 20px;
+		border:none;
+		border-bottom: 1px solid #fff;
+		 background:rgba(9,7,4,0);
+		outline:none;
+		height:50px;
+		color:#fff;
+		font-size: 16px;
+}
+.loginbox3 textarea
+{       width:50%;
+        margin-bottom: 20px;
+		border:none;
+		border-bottom: 1px solid #fff;
+		 background:rgba(9,7,4,0);
+		outline:none;
+		height:50px;
+		color:#fff;
+		font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 15px;
+	align:right;
+	
+}
+.loginbox3 input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 15px;
+	align-items: center;
+	left: 30 px;
+	
+
+}
+.loginbox3 input[type="radio"]
+{
+	border:none;
+	outline:none;
+	height:20px;
+	background:#fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 15px;
+	align-items: left;
+	left: 30 px;
+	
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background: #ffc107;
+color:#000;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.loginbox3 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background: #ffc107;
+color:#000;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.service-section{
+    padding: 20px 60px;
+
+}
+.service-section h1{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.service-section h1::after{
+    content: "";
+    width: 250px;
+    height: 5px;
+    background-color: rgb(146, 30, 30);
+    display: flex;
+    margin: auto;
+    margin-top:5px;
+
+}
+.cards-section{
+    text-align: center;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+.cards-section>div{
+    padding: 30px 10px;
+    background-color: #5e5e5e;
+    cursor: pointer;
+
+}
+.cards-section>div:hover{
+    background-color: #8c8c8c;
+    transition: 0.5s ease;
+
+}
+.cards-section i{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    background-color: #d8db1d;
+    margin-bottom: 25px;
+
+}
+.cards-section i:hover{
+    background-color: #5e5e5e;
+    transition: 0.5s ease;
+
+}
+.cards-section h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+
+}
+.cards-section p{
+    color: #d4d4dd;
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+.cards-section a{
+    margin-top: 10px;
+      display: inline-block;
+      color: #fff;
+      background-color: #900;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      letter-spacing: 1px;
+    border-radius: 8px;
+     
+}
+.cards-section a:hover{
+    color: #22221a;
+    background-color: #fff;
+    font-weight: bold;
+}

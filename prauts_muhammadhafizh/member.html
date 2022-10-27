@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<link rel="stylesheet" type="text/css" href="go.css">
+<body> <nav>
+
+            <div class="brand">
+             <h1>Aquzu</h1>
+             </div>
+            
+             <ul>
+                <li><a href="homeuser.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pesan.html">Pesan</a></li>
+                <li><a href="feedback.html">Feedback</a></li> 
+                <li><a href="menunavbar.html">Logout</a></li>  </ul>
+                </nav>
+                <section class="sec1"></section>
+                <section class="sec2"></section>
+
+<form name="form1" method="post" action="tambahfeed.php">
+
+<div class="loginbox3">
+<h2>Pesanan Langganan</h2>
+
+
+
+        <div>
+            <p>Nama</p>
+            <label>
+              <input type="text" name="n_tlp" id="n_tlp" palaceholder="Nomer Telepon" required>
+            </label>
+        
+            <p>Nomer Telepon</p>
+            <label>
+              <input type="text" name="n_tlp" id="n_tlp" palaceholder="Nomer Telepon" required>
+            </label>
+            
+            <p>Alamat</p>
+            <label>
+        
+              <textarea  name="saran" id="saran" cols="100" rows="5" palaceholder="Saran"></textarea></label>
+
+            <p>Kemasan</p>
+            <label id="labelselect">
+                            <select required>
+                                <option disabled selected>Pilih jenis Kemasan</option>
+                                <option>Botol plastik 330 ml</option>
+                                <option>Botol plastik 600 ml/box</option>
+                                <option>Botol Plastik 750 ml/box</option>
+                                <option>Gelas Plastik 220ml/box</option>
+                                <option>Galon 19 liter </option>
+                            </select></label></div>
+
+<div>
+            <p>Jumlah</p>
+            <label>
+              <input type="text" name="n_tlp" id="n_tlp" palaceholder="Nomer Telepon" required>
+            </label>
+        
+           <p>Jenis Pembayaran</p>
+            <label id="labelselect">
+                            <select required>
+                                <option disabled selected>Metode Pembayaran</option>
+                                <option>Cash</option>
+                                <optgroup label="e-banking">
+                                <option>BCA</option>
+                                <option>BRI</option>
+                                <option>BNI</option>
+                                <optgroup label="e-Wallet">
+                                <option>Gopay</option>
+                                <option>DANA</option>
+                                <option>OVO</option>
+                                <option>Shopeepay</option>
+                            </select></label>
+            
+            <p>Jenis Langganan</p>
+            <label id="labelselect">
+                            <select required>
+                                <option disabled selected>Langganan</option>
+                                <optgroup label="Mingguan">
+                                <option>1 minggu 1 kali</option>
+                                <option>1 minggu 2 kali</option>
+                                <option>1 minggu 3 kali</option>
+                                <optgroup label="Bulanan diskon5%">
+                                <option>Satu bulan 1 kali</option>
+                                <option>Satu bulan 2 kali</option>
+                                <option>Satu bulan 3 kali</option>
+                                <optgroup label="6 bulan diskon 30% + free 1 gallon">
+                                <option>Satu bulan sekali</option>
+                                <option>Satu bulan 2 kali</option>
+                                <option>Satu bulan 3 kali</option>
+                                <option>Satu bulan 4 kali</option>
+                            </select></label>
+                        </div>
+
+
+            
+            <p><input name="button" type="submit" value="KONFIRMASI"></p>
+            </form>
+            </div></div>
+            </body>
